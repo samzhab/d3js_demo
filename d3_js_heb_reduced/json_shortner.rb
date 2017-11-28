@@ -6,7 +6,7 @@ array_to_json = []
 max = parsed_json.size - 1
 range = 0..max
 range.each do |count|
-  break if count > 4
+  # break if count > 4
   names_to_keep = []
   imports_to_keep = []
   sizes_to_keep = []
@@ -26,7 +26,7 @@ range.each do |count|
                        size: sizes_to_keep[i],
                        imports: imports_to_keep[i] }
     puts array_to_json.inspect
-    new_file = File.open('new_flare.json', 'w')
+    new_file = File.open('flare.json', 'w')
     new_file.puts array_to_json.to_json
   end
 end
