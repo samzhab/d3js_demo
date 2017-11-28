@@ -1,0 +1,114 @@
+[
+  {
+    "dimension": "dependency.attributes.Submissions",
+    "depends_on": [
+      "dependency.attributes.Review Process",
+      "dependency.attributes.Review Results",
+      "dependency.attributes.Location",
+      "dependency.attributes.Topical Focus",
+      "dependency.attributes.Reputation and Impact",
+      "dependency.attributes.Publicity",
+      "dependency.attributes.Person Roles"
+      ]
+  },
+  {
+    "dimension":"dependency.attributes.Publishing",
+    "depends_on": [
+      "dependency.attributes.Journal Event Coupling",
+      "dependency.attributes.Availability and Access",
+      "dependency.attributes.Bibliometrics",
+      "dependency.attributes.Review Results",
+      "dependency.attributes.Topics Focus",
+      "dependency.attributes.Registration"
+      ]
+  },
+  {
+    "dimension": "dependency.attributes.Bibliometrics",
+    "depends_on": [
+      "dependency.attributes.Discoverability",
+      "dependency.attributes.Reputation and Impact"
+      ]
+  },
+  {
+    "dimension": "dependency.attributes.Reputation and Impact",
+    "depends_on": [
+      "dependency.attributes.Social Network",
+      "dependency.attributes.Person Backgrounds",
+      "dependency.attributes.Publicity",
+      "dependency.attributes.Topics Focus",
+      "dependency.attributes.Person Roles"
+      ]
+  },
+  {
+    "dimension": "dependency.attributes.Sponsorship",
+    "depends_on": [
+      "dependency.attributes.Registration",
+      "dependency.attributes.Awards",
+      "dependency.attributes.Location",
+      "dependency.attributes.Schedule"
+    ]
+  },
+  {
+    "dimension": "dependency.attributes.Schedule",
+    "depends_on": [
+        "dependency.attributes.Submissions",
+        "dependency.attributes.Review Results"
+      ]
+  },
+  {
+    "dimension": "dependency.attributes.Review Results",
+    "depends_on": ["dependency.attributes.Person Roles"]
+  },
+  {
+    "dimension": "dependency.attributes.Review Process",
+    "depends_on": ["dependency.attributes.Review Results"]
+  },
+  {
+    "dimension": "dependency.attributes.Person Roles",
+    "depends_on": ["dependency.attributes.Person Backgrounds"]
+  },
+  {
+    "dimension": "dependency.attributes.Topical Focus",
+    "depends_on": []
+  },
+  {
+    "dimension": "dependency.attributes.Location",
+    "depends_on": []
+  },
+  {
+    "dimension": "dependency.attributes.Awards",
+    "depends_on": []
+  },
+  {
+    "dimension": "dependency.attributes.Topics Focus",
+    "depends_on": []
+  },
+  {
+    "dimension": "dependency.attributes.Publicity",
+    "depends_on": []
+  },
+  {
+    "dimension": "dependency.attributes.Social Network",
+    "depends_on": []
+  },
+  {
+    "dimension": "dependency.attributes.Discoverability",
+    "depends_on": []
+  },
+  {
+    "dimension": "dependency.attributes.Availability and Access",
+    "depends_on": []
+  },
+  {
+    "dimension": "dependency.attributes.Journal Event Coupling",
+    "depends_on": []
+  },
+  {
+    "dimension": "dependency.attributes.Person Backgrounds",
+    "depends_on": []
+  },
+  {
+    "dimension": "dependency.attributes.Registration",
+    "depends_on": []
+  }
+]
