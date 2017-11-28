@@ -1,0 +1,40 @@
+dimension,depends_on
+Submissions,Review Process
+Submissions,Review Results
+Submissions,Location
+Submissions,Topical Focus
+Submissions,Reputation and Impact
+Submissions,Publicity
+Submissions,Person Roles
+Publishing,Journal Event Coupling
+Publishing,Availability and Access
+Publishing,Bibliometrics
+Publishing,Review Results
+Publishing,Topical Focus
+Publishing,Registration
+Bibliometrics,Discoverability
+Bibliometrics,Reputation and Impact
+Reputation and Impact,Social Network
+Reputation and Impact,Publicity
+Reputation and Impact,Topical Focus
+Sponsorship,Awards
+Sponsorship,Registration
+Sponsorship,Location
+Sponsorship,Schedule
+Schedule,Submissions
+Review Results,Person Roles
+Review Process,Review Results
+Schedule,Review Results
+Person Roles,Person Backgrounds
+Reputation and Impact,Person Backgrounds
+Reputation and Impact,Person Roles
+Registration,
+Person Backgrounds,
+Journal Event Coupling,
+Availability and Access,
+Discoverability,
+Social Network,
+Publicity,
+Awards,
+Location,
+Topical Focus,
