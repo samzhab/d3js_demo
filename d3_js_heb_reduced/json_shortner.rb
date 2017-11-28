@@ -12,13 +12,12 @@ range.each do |count|
   sizes_to_keep = []
   name = parsed_json[count]['name'].to_s
   size = parsed_json[count]['size'].to_i
-  regex = '/(.phys.)/'
-  next if name[regex.to_s]
+  next if name[/(.phys.)/]
   temp_keep = []
   names_to_keep << parsed_json[count]['name']
   sizes_to_keep << size.to_i if size
   parsed_json[count]['imports'].each do |member|
-    temp_keep << member.to_s unless member[regex.to_s]
+    temp_keep << member.to_s unless member[/(.phys.)/]
   end
   imports_to_keep << temp_keep
   deep_range = 0..names_to_keep.size - 1
